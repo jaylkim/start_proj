@@ -92,7 +92,7 @@ program define start_proj
     exit
   }
 
-  cd "`parent'/`proj_folder'"
+  qui cd "`parent'/`proj_folder'"
 
   // Make directories required
   // .              // Project dir
